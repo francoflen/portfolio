@@ -8,8 +8,8 @@ const proyectosData = [
   {
     id: 1,
     img: 'ruta-de-imagen-1.png',
-    titulo: 'Proyecto 1',
-    descripcion: 'Descripción del Proyecto 1...',
+    titulo: 'Portafolio WEB',
+    descripcion: 'El proyecto LO ESTAMOS VIENDO... Esta pagina web esta creada con React',
     lengProgramacion: ['JavaScript', 'React', 'HTML', 'CSS'],
   },
   {
