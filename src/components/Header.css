@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0; /* Cambiar el color de fondo según tu paleta de colores */
+  color: #333; /* Cambiar el color de texto según tu paleta de colores */
+}
+
+.logo img {
+  max-width: 50px; /* Ajustar el tamaño del logo según tus necesidades */
+}
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #333; /* Cambiar el color de los enlaces según tu paleta de colores */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navigation a:hover {
+  color: #007bff; /* Cambiar el color de los enlaces cuando se pasa el cursor por encima */
+}
+
+.download-cv .download-btn {
+  display: inline-block;
+  background-color: #007bff; /* C ambiar el color del botón de descarga según tu paleta de colores */
+  color: #fff; /* Cambiar el color del texto del botón según tu paleta de colores */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.download-cv .download-btn:hover {
+  background-color: #0056b3; /* Cambiar el color del botón de descarga cuando se pasa el cursor por encima */
+}

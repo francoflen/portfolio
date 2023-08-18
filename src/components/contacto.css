@@ -1,0 +1,83 @@
+.contacto-container {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.contacto-info,
+.contacto-formulario {
+  flex: 1;
+}
+
+.contacto-info h2 {
+  color: #007bff; /* Cambiar el color de los títulos según tu paleta de colores */
+}
+
+.contacto-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contacto-info li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contacto-info img {
+  width: 30px; /* Ajustar el tamaño de los íconos según tus necesidades */
+  height: 30px;
+  margin-right: 10px;
+}
+
+.contacto-info a {
+  color: #333; /* Cambiar el color de los enlaces según tu paleta de colores */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contacto-info a:hover {
+  color: #007bff; /* Cambiar el color de los enlaces cuando se pasa el cursor por encima */
+}
+
+.contacto-formulario {
+  margin-top: 40px;
+}
+
+.contacto-formulario h2 {
+  color: #007bff; /* Cambiar el color de los títulos según tu paleta de colores */
+}
+
+.contacto-formulario form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.contacto-formulario label {
+  font-weight: bold;
+}
+
+.contacto-formulario input,
+.contacto-formulario textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contacto-formulario button {
+  background-color: #007bff; /* Cambiar el color del botón según tu paleta de colores */
+  color: #fff; /* Cambiar el color del texto del botón según tu paleta de colores */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contacto-formulario button:hover {
+  background-color: #0056b3; /* Cambiar el color del botón cuando se pasa el cursor por encima */
+}

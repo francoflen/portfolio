@@ -1,0 +1,30 @@
+.footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    margin-bottom: 10px;
+  }
+  
+  .social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-links li {
+    margin: 0 10px;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .footer-bottom {
+    font-size: 14px;
+  }
+  

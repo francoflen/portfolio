@@ -1,0 +1,27 @@
+.body-container {
+    padding: 20px;
+  }
+  
+  .about-me-section,
+  .experience-section,
+  .skills-section,
+  .contact-section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    color: #007bff; /* Cambiar el color de los títulos según tu paleta de colores */
+  }
+  
+  .university-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
